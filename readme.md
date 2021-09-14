@@ -6,9 +6,7 @@ Dockerize Rails.
 
 For existing Rails apps
 ```
-curl
-https://raw.githubusercontent.com/jethrodaniel/docker-rails/master/install.sh |
-bash
+curl https://raw.githubusercontent.com/jethrodaniel/docker-rails/master/install.sh | bash
 ```
 
 ## what it do

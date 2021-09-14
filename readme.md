@@ -74,7 +74,7 @@ You can specify everything else (`RAILS_ENV`, etc) in `.env` files.
 In `dev`, your code is mounted in the app (for live changes), and your DB is
 using an ephemeral volume for it's `PG_DATA` directory.
 
-**Note**: the production target assumes an _external_volume for your Postgres
+**Note**: the production target assumes an _external_ volume for your Postgres
 data directory, create it like so
 ```
 docker volume create pg_data  # the name shoule be specified in .env files

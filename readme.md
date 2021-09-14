@@ -2,6 +2,15 @@
 
 Dockerize Rails.
 
+## TLDR;
+
+For existing Rails apps
+```
+curl
+https://raw.githubusercontent.com/jethrodaniel/docker-rails/master/install.sh |
+bash
+```
+
 ## what it do
 
 - single Dockerfile (choose prod/dev with targets)

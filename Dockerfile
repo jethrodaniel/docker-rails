@@ -6,7 +6,7 @@ RUN apk add --no-cache \
   tzdata=2021a-r0 \
   imagemagick=7.0.11.13-r0
 # RUN apk add --no-cache sqlite-dev=3.35.5-r0
-# RUN apk add --no-cache mariadb-dev (10.5.12-r0)
+# RUN apk add --no-cache mariadb-dev=10.5.12-r0
 
 #--
 

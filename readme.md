@@ -9,6 +9,8 @@ For existing Rails apps
 curl https://raw.githubusercontent.com/jethrodaniel/docker-rails/master/install.sh | bash
 ```
 
+Then update the Dockerfile's ruby version (first line) to match your Gemfile.
+
 ## what it do
 
 - single Dockerfile (choose prod/dev with targets)

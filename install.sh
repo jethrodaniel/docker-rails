@@ -21,6 +21,11 @@ echo "=== Dockerizing Rails... ==="
 ensure_cmd_exists "docker"
 ensure_cmd_exists "docker-compose"
 
+# Todo:
+# - auto set the right ruby version from Gemfile using perl only
+# perl -ne "print \$1 if /ruby '(\d+.+)'/" Gemfile
+#
+
 git clone https://github.com/jethrodaniel/docker-rails .docker-rails \
   && cp -v .docker-rails/docker-compose.yml . \
   && cp -v .docker-rails/Dockerfile . \

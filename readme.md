@@ -2,7 +2,7 @@
 
 Dockerize Rails.
 
-## TLDR;
+## tldr;
 
 For existing Rails apps
 ```
@@ -20,6 +20,9 @@ curl https://raw.githubusercontent.com/jethrodaniel/docker-rails/master/install.
 - Postgres DB is expected (otherwise the compose file needs to change)
 - Webpack usage is assumed (we actually ship a dev config to allow hot-reload
   for views as well as the default JS)
+
+**Note**: For sqlite/mysql, uncomment the needed `apk` lines at the beginning of the
+`Dockerfile`.
 
 ## setup
 
